@@ -1,0 +1,24 @@
+---
+abstract: 'Factory wrapper around WWW::Shorten to avoid imports'
+author:
+  - 'Tatsuhiko Miyagawa <miyagawa@bulknews.net>'
+build_requires:
+  Test::More: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.79'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-Shorten-Simple
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Filter::Util::Call: 0
+  perl: 5.8.1
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/miyagawa/www-shorten-simple.git
+version: 0.01
